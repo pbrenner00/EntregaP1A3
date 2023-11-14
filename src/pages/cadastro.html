@@ -5,58 +5,71 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Strong Games - Cadastro</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/style2.css">
+    <script src="../js/script.js"></script>
 </head>
 <body>
-  <header>
+<header>
     <div class="logo">
-      <a href="../index.html">
-        <img src="../img/logo.png" alt="logo">
-      </a>
+        <a href="../index.html">
+            <img src="../img/logo.png" alt="logo">
+        </a>
     </div>
     <div class="icon-numero">
-      <div class="img-numero">
-        <img src="../img/ico-tel.png" alt="">
-      </div>
-      <div class="texto-numero">
-        <span>0800 425 1212</span>
-        <small>Somente horário Comercial</small>
-      </div>
-    </div>
-  </header>
-  <br>
-    <div class="container">
-
-        <form id="form_cadastro" class="form_login">
-          <div class="loginPage">
-
-            <div class="formCadastro">
-              <h2>Cadastro</h2>
-              <br>
-              <div class="divUsuario">
-                <label for="nome">Nome:</label>
-                <input type="text" id="inputUsuario" name="nome" required>
-              </div>
-                <br>
-              <div class="divUsuario">
-                <label for="email">Email:</label>
-                <input type="email" id="inputUsuario" name="email" required>
-              </div>
-              <br>
-              <div class="divSenha">
-                <label for="senha">Senha:</label>
-                <input type="password" id="inputSenha" name="senha" required>
-              </div>
-              <br>
-              <div class="divSenha">
-                <label for="senha">Confirma Senha:</label>
-                <input type="password" id="inputSenha" name="senha" required>
-              </div>
-              <br>
-
-            <button type="submit">Cadastrar</button>
-          </div>
+        <div class="img-numero">
+            <img src="../img/ico-tel.png" alt="">
         </div>
-        </form>
+        <div class="texto-numero">
+            <span>0800 425 1212</span>
+            <small>Somente horário Comercial</small>
+        </div>
     </div>
+</header>
+<br>
+<main>
+    <div class="container">
+        <div class="login-div">
+            <form id="cadastroForm" class="form-cadastro" action="" name="" method="post">
+                <div class="cadastroPage">
+                    <div class="formCadastro">
+                        <div class="bemVindo">
+                            Bem Vindo - Ambiente Restrito
+                        </div>
+                        <br> <br>
+                        <div class="inputsCadastro">
+                            <div class="divUsuario">
+                                <label class="pUsuario" for="inputUsuario">Usuario:</label>
+                                <input id="inputUsuario" type="text" name="usuario">
+                            </div>
+                            <div class="divEmail">
+                                <label class="pEmail" for="inputEmail">Email:</label>
+                                <input id="inputEmail" type="email" name="email">
+                            </div>
+                            <div class="divSenha">
+                                <label class="pSenha" for="inputSenha">Senha:</label>
+                                <input class="inputSenha" id="inputSenha" type="password" name="senha">
+                            </div>
+                            <div class="divConfirmarSenha">
+                                <label class="pConfirmarSenha" for="inputConfirmarSenha">Confirmar Senha:</label>
+                                <input class="inputConfirmarSenha" id="inputConfirmarSenha" type="password" name="senha">
+                            </div>
+                            <div class="inputButton">
+                                <input id="inputButton" type="submit" placeholder="">
+                            </div>
+                            <div class="cadastro">
+                                <div class="cadastro2">
+                                    Já possui Conta?<a href="login.html"> Clique Aqui</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--div_forCadastro-->
+                </div><!--div_aadastroPage-->
+            </form>
+        </div>
+    </div><!--Container-->
+</main>
+<footer class="footer-login">
+    <div class="copy">©2023 - Strong Games. Todos os direitos reservados</div>
+</footer>
 </body>
 </html>

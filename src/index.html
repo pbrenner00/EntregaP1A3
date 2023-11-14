@@ -18,7 +18,7 @@
 <body>
 <header>
     <div class="logo">
-        <a href="index.html">
+        <a href="index.html" onclick="showPage('home')">
             <img src="img/logo.png" alt="logo">
         </a>
     </div>
@@ -36,10 +36,10 @@
             <img src="img/ico-login.png" alt="">&nbsp;
         </div>
         <div class="texto-login">
-            <span><a href="pages/login.html" class="login-a">&nbsp;Login </a> / </span>
+            <span><a href="pages/login.html" class="login-a" id="login">&nbsp;Login </a> / </span>
         </div>
         <div class="texto-cadastrar">
-            <span><a href="pages/cadastro.html" class="login-a">&nbsp;Cadastre-se</a></span>
+            <span><a href="pages/cadastro.html" class="login-a" onclick="showPage('cadastro')">&nbsp;Cadastre-se</a></span>
         </div>
     </div>
 
