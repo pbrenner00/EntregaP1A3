@@ -305,6 +305,24 @@ header a {
     height: 16px;
     margin: 10px;
 }
+.pGenero {
+    color: #e1e1e1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: flex;
+    width: 275px;
+    height: 16px;
+    margin: 10px;
+}
+.pPlataforma {
+    color: #e1e1e1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: flex;
+    width: 275px;
+    height: 16px;
+    margin: 10px;
+}
 
 #inputUsuario {
     border-left: none;
@@ -368,7 +386,23 @@ header a {
     width: 55%;
 }
 
+.divGenero {
+    padding-top: 5px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .divUsuario {
+    padding-top: 5px;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.divPlataforma {
     padding-top: 5px;
     padding-left: 0;
     display: flex;
@@ -541,8 +575,6 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 10px 0;
-    border-bottom: #22272e solid 2px;
-    border-top: #22272e solid 2px;
 }
 
 .button-slide {
